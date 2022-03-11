@@ -88,6 +88,7 @@
 .wd-container{
     margin-top: 4%;
     text-align: center;
+    margin-left: 2%;
 }
 .project{
     display: none;
@@ -97,4 +98,20 @@
 }
 .planning{
     display: none;
+}
+
+/* PORTFOLIO */
+.topic{
+    text-align: center;
+    margin-top: 5%;
+}
+.firstRow{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.secondRow{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
