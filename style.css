@@ -89,3 +89,12 @@
     margin-top: 4%;
     text-align: center;
 }
+.project{
+    display: none;
+}
+.development{
+    display: none;
+}
+.planning{
+    display: none;
+}
