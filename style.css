@@ -58,18 +58,9 @@
 }
 /* done edditted */
 
-.b-container{
-        position: relative;
-        text-align: center;
-        /* margin-top: -200px; */
-        overflow-x: hidden;
-        background-size: 100%;
-        margin-top: 5%;
-}
-.c-container{
-    position: relative;
+.card-img-overlay{
     text-align: center;
-    margin-top: -250px;
+    margin-top: 7%;
 }
 .passage{
     position: absolute;
