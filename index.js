@@ -3,7 +3,6 @@ $(document).ready(function(){
         $(".development").toggle();
     });
 });
-
 $(document).ready(function(){
     $(".product").click(function(){
         $(".planning").toggle();
