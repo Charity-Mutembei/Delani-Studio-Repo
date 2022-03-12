@@ -88,13 +88,98 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+p.card-text-1{
+    border: 3px solid white;
+    height: 200px;
+    width: 100%; 
+    background-color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+p.card-text-2{
+    border: 3px solid white;
+    height: 200px;
+    width: 100%; 
+    background-color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+p.card-text-3{
+    border: 3px solid white;
+    height: 200px;
+    width: 100%; 
+    background-color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+p.card-text-4{
+    border: 3px solid white;
+    height: 200px;
+    width: 100%; 
+    background-color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+p.card-text-5{
+    border: 3px solid white;
+    height: 200px;
+    width: 100%; 
+    background-color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+p.card-text-6{
+    border: 3px solid white;
+    height: 200px;
+    width: 100%; 
+    background-color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}p.card-text-7{
+    border: 3px solid white;
+    height: 200px;
+    width: 100%; 
+    background-color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}p.card-text-8{
+    border: 3px solid white;
+    height: 200px;
+    width: 100%; 
+    background-color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+/* contacts */
 .contacts{
     margin-top: 2%;
 }
+/* socials  */
 .socials{
     margin-left: 30%;
     margin-top: 3%;
 }
 p.last-text{
     text-align: center;
+}
+div.form-floating{
+    /* opacity: 100%; */
+    margin-left: 50%;
+   
+}
+textarea#floatingTextarea2.form-control{
+    color: white;
+    border: 1px solid white;
+    height: 0%;
+    width: 50%;
+    background-color: black;
+    /* opacity: 0%; */
 }
