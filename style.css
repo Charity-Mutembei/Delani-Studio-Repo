@@ -3,25 +3,17 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
-    .background-container{
-        position: relative;
-        overflow-x: hidden;
-        background-size: contain;
-    }
-    img{
-        max-width: 100%;
-    }
-    .l-container{
-        position: relative;
-        text-align: center;
-        margin-top: -39%;  
-    }
-    .m-container{
-        position: relative;
+.background-container{
+    margin-top: 9%;  
+}
+.m-container{
         text-align: center; 
         margin-top: 12%;
-    }
+}
 
 
 /* done eddited */
@@ -36,13 +28,11 @@
  }
 .message2{
     margin-top: 3%;
-    /* margin-left: 35%; */
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
 }
 .message4{
-    /* margin-left: 25%; */
     color: white;
     margin-top: 2%;
 }
@@ -61,19 +51,11 @@
 .card-img-overlay{
     text-align: center;
     margin-top: 7%;
+    overflow-x: hidden;
 }
-.passage{
-    position: absolute;
-    /* align-items: center; */
-    /* top: 0%; */
-    left: 45%;
-    right: -20%;
-    transform: translate(-50%, -50%);
-    margin-top: 4%;
-    color: white;
-}
+
 .h-container{
-    margin-top: 22%;
+    margin-top: 3%;
     text-align: center;
 }
 .wd-container{
@@ -108,4 +90,11 @@
 }
 .contacts{
     margin-top: 2%;
+}
+.socials{
+    margin-left: 30%;
+    margin-top: 3%;
+}
+p.last-text{
+    text-align: center;
 }
