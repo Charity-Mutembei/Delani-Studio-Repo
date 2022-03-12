@@ -173,6 +173,25 @@ p.card-text-6{
     clear: both;
     display: table;
   }
+  form.row.g-3{
+      width: 60%;
+    margin-left: 20%;
+  }
+  input#inputEmail4.form-control{
+      background: rgba(0,0,0,0.2);
+    border: 1px solid white;
+    color: white;
+  }
+  input#inputPassword4.form-control{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid white; 
+    color: white;
+  }
+  textarea#floatingTextarea.form-control{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid white;
+    color: white;
+  }
 /* socials  */
 .socials{
     margin-left: 30%;
