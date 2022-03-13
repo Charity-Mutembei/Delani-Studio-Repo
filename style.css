@@ -48,10 +48,15 @@ body{
 }
 /* done edditted */
 
-.card-img-overlay{
-    text-align: center;
-    margin-top: 7%;
-    overflow-x: hidden;
+@media (min-width: 300px) {
+    .card-img-overlay{
+        text-align: center;
+        margin-top: 7%;
+        overflow-x: hidden;
+    }
+}
+@media (min) {
+    
 }
 
 .h-container{
@@ -90,8 +95,8 @@ body{
 }
 p.card-text-1{
     border: 3px solid white;
-    height: 200px;
-    width: 100%; 
+    max-height: 200px;
+    max-width: 100%; 
     background-color: rgba(0,0,0,0.8);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -99,8 +104,8 @@ p.card-text-1{
 }
 p.card-text-2{
     border: 3px solid white;
-    height: 200px;
-    width: 100%; 
+    max-height: 200px;
+    max-width: 100%; 
     background-color: rgba(0,0,0,0.8);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -108,8 +113,8 @@ p.card-text-2{
 }
 p.card-text-3{
     border: 3px solid white;
-    height: 200px;
-    width: 100%; 
+    max-height: 200px;
+    max-width: 100%; 
     background-color: rgba(0,0,0,0.8);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -117,8 +122,8 @@ p.card-text-3{
 }
 p.card-text-4{
     border: 3px solid white;
-    height: 200px;
-    width: 100%; 
+    max-height: 200px;
+    max-width: 100%; 
     background-color: rgba(0,0,0,0.8);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -126,8 +131,8 @@ p.card-text-4{
 }
 p.card-text-5{
     border: 3px solid white;
-    height: 200px;
-    width: 100%; 
+    max-height: 200px;
+    max-width: 100%; 
     background-color: rgba(0,0,0,0.8);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -135,71 +140,81 @@ p.card-text-5{
 }
 p.card-text-6{
     border: 3px solid white;
-    height: 200px;
-    width: 100%; 
+    max-height: 200px;
+    max-width: 100%; 
     background-color: rgba(0,0,0,0.8);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     display: none;
 }p.card-text-7{
     border: 3px solid white;
-    height: 200px;
-    width: 100%; 
+    max-height: 200px;
+    max-height: 100%; 
     background-color: rgba(0,0,0,0.8);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     display: none;
 }p.card-text-8{
     border: 3px solid white;
-    height: 200px;
-    width: 100%; 
+    max-height: 200px;
+    max-width: 100%; 
     background-color: rgba(0,0,0,0.8);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     display: none;
 }
 /* contacts */
-.contacts{
-    margin-top: 2%;
+@media (min-width: 300px) {
+    .contacts{
+        margin-top: 2%;
+    }
+    .form-floating-1{
+        margin-top: 2%;
+        max-width: 40%;
+        margin-left: 30%;
+    
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      form.row.g-3{
+          max-width: 60%;
+        margin-left: 20%;
+      }
+      input#inputEmail4.form-control{
+          background: rgba(0,0,0,0.2);
+        border: 1px solid white;
+        color: white;
+      }
+      input#inputName.form-control{
+        background: rgba(0,0,0,0.2);
+        border: 1px solid white; 
+        color: white;
+      }
+      textarea#floatingTextarea.form-control{
+        background: rgba(0,0,0,0.2);
+        border: 1px solid white;
+        color: white;
+      }
 }
-.form-floating-1{
-    margin-top: 2%;
-    width: 40%;
-    margin-left: 30%;
-
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  form.row.g-3{
-      width: 60%;
-    margin-left: 20%;
-  }
-  input#inputEmail4.form-control{
-      background: rgba(0,0,0,0.2);
-    border: 1px solid white;
-    color: white;
-  }
-  input#inputPassword4.form-control{
-    background: rgba(0,0,0,0.2);
-    border: 1px solid white; 
-    color: white;
-  }
-  textarea#floatingTextarea.form-control{
-    background: rgba(0,0,0,0.2);
-    border: 1px solid white;
-    color: white;
-  }
 /* socials  */
+@media (min-width: 800px) {
+    .socials{
+        margin-left: 30%;
+    
+    }
+    
+}
 .socials{
-    margin-left: 30%;
     margin-top: 3%;
 }
 p.last-text{
     text-align: center;
 }
-.newsletter{
-    margin-left: 30%;
+@media (min-width: 800px) {
+    .newsletter{
+        margin-left: 30%;
+    }
 }
