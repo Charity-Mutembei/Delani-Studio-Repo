@@ -182,7 +182,7 @@ p.card-text-6{
     border: 1px solid white;
     color: white;
   }
-  input#inputPassword4.form-control{
+  input#inputName.form-control{
     background: rgba(0,0,0,0.2);
     border: 1px solid white; 
     color: white;
